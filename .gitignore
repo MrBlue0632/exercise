@@ -1,0 +1,13 @@
+# Local Python environments and bytecode
+.venv*/
+__pycache__/
+*.py[cod]
+.idea/
+
+# Downloaded or generated training data
+TinyStories_all_data.tar.gz
+TinyStories_all_data/
+miniLLM/ref/llama2.c/data/
+
+# Local training outputs
+miniLLM/checkpoints/sweep_15m/
