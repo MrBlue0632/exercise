@@ -1,0 +1,30 @@
+{
+  "source_shape": [
+    224,
+    224,
+    3
+  ],
+  "method": "RGB unsharp prefilter (Gaussian radius 1.15, residual amount 1.35), then Lanczos downsampling",
+  "outputs": {
+    "32": {
+      "shape": [
+        32,
+        32,
+        3
+      ],
+      "values": 3072,
+      "ordinary_psnr_db_after_bicubic_upscale": 18.979,
+      "highfreq_psnr_db_after_bicubic_upscale": 19.001
+    },
+    "16": {
+      "shape": [
+        16,
+        16,
+        3
+      ],
+      "values": 768,
+      "ordinary_psnr_db_after_bicubic_upscale": 15.825,
+      "highfreq_psnr_db_after_bicubic_upscale": 15.819
+    }
+  }
+}
